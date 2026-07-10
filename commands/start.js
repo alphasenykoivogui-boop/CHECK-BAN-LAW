@@ -56,23 +56,22 @@ ma chaîne.
 ┃   𝗕𝗔𝗡 𝗖𝗛𝗘𝗖𝗞 • 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟
 ┣━━━━━━━━━━━━━━━━━━━━━━┫
 
-👋 Bienvenue ${firstName}
+❍ Bienvenue ${firstName}
 
 🟢 BOT : ONLINE
-⚡ VERSION : 1.0
+❒ VERSION : 1.0
 
 ━━━━━━━━━━━━━━━━━━━
-
-📂 COMMANDES
+❍ COMMANDES.
 
 ❒ /check
 ➜ Vérifier un numéro
 
 ❒ /setbanned
-➜ Modifier le texte BANNED
+➜ Modifier le texte banned
 
 ❒ /setclean
-➜ Modifier le texte CLEAN
+➜ Modifier le texte actif
 
 ❒ /resetmessages
 ➜ Restaurer les textes
