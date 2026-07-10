@@ -18,7 +18,7 @@ module.exports = async (bot, msg) => {
 
     bot.sendMessage(
         chatId,
-`✅ Votre message de compte actif a été enregistré avec succès.`
+`✅ Votre tex de compte actif a été enregistré avec succès.`
     );
 
 };
