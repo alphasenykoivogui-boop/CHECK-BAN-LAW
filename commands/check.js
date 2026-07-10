@@ -35,7 +35,6 @@ module.exports = async (bot, msg) => {
    ❖ 𝗕𝗔𝗡 𝗖𝗛𝗘𝗖𝗞 ❖
 
 ━━━━━━━━━━━━━━━━━━━━
-
 ╭─❖ 𝗡𝗨𝗠𝗕𝗘𝗥 ❖─╮
 ➜ ${number}
 
@@ -44,7 +43,6 @@ module.exports = async (bot, msg) => {
 
 📋 ╭─❖ 𝗥𝗔𝗜𝗦𝗢𝗡 ❖─╮
 ➜ ⚠️ 𝐔𝐬𝐚𝐠𝐞 𝐜𝐨𝐧𝐝𝐢𝐭𝐢𝐨𝐧𝐬 𝐧𝐨𝐭 𝐦𝐞𝐭.
-
 ━━━━━━━━━━━━━━━━━━━━
 
 ${messages.banned}
@@ -60,17 +58,13 @@ ${messages.banned}
             path.join(__dirname, "../assets/clean.jpg"),
             {
                 caption: `━━━━━━━━━━━━━━━━━━━━━━
-
   ❖ 𝗕𝗔𝗡 𝗖𝗛𝗘𝗖𝗞 ❖
-
 ━━━━━━━━━━━━━━━━━━━━
-
 ╭─❖ 𝗡𝗨𝗠𝗕𝗘𝗥 ❖─╮
 ➜ ${number}
 
 ╭─❖ 𝗦𝗧𝗔𝗧𝗨𝗧 ❖─╮
 ➜ ✅ 𝐀𝐂𝐓𝐈𝐅 ✅
-
 ━━━━━━━━━━━━━━━━━━━━
 
 ${messages.clean}
