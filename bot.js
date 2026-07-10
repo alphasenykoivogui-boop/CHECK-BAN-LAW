@@ -46,3 +46,16 @@ bot.on("message", async (msg) => {
     }
 
 });
+
+bot.on("callback_query", async (query) => {
+
+    if (query.data !== "check_sub") return;
+
+    await bot.answerCallbackQuery(query.id);
+
+    startCommand(bot, {
+        chat: query.message.chat,
+        from: query.from
+    });
+
+});
