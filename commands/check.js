@@ -12,7 +12,7 @@ module.exports = async (bot, msg) => {
     if (args.length < 2) {
         return bot.sendMessage(
             chatId,
-            "❌ Utilisation :\n\n/check +224XXXXXXXX"
+            "Tape la commande 🤏:\n\n/check +224XXXXXXXX"
         );
     }
 
@@ -30,11 +30,9 @@ module.exports = async (bot, msg) => {
                 chatId,
                 path.join(__dirname, "../assets/banned.jpg"),
                 {
-                    caption: `━━━━━━━━━━━━━━━━━━━━
-
+                    caption: `━━━━━━━━━━━━━━━━━━
    ❖ 𝗕𝗔𝗡 𝗖𝗛𝗘𝗖𝗞 ❖
-
-━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━
 ╭─❖ 𝗡𝗨𝗠𝗕𝗘𝗥 ❖─╮
 ➜ ${number}
 
@@ -57,19 +55,19 @@ ${messages.banned}
             chatId,
             path.join(__dirname, "../assets/clean.jpg"),
             {
-                caption: `━━━━━━━━━━━━━━━━━━━━━━
+                caption: `━━━━━━━━━━━━━━━━━━━━
   ❖ 𝗕𝗔𝗡 𝗖𝗛𝗘𝗖𝗞 ❖
-━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━
 ╭─❖ 𝗡𝗨𝗠𝗕𝗘𝗥 ❖─╮
 ➜ ${number}
 
 ╭─❖ 𝗦𝗧𝗔𝗧𝗨𝗧 ❖─╮
 ➜ ✅ 𝐀𝐂𝐓𝐈𝐅 ✅
-━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━
 
 ${messages.clean}
 
-━━━━━━━━━━━━━━━━━━━━`,
+━━━━━━━━━━━━━━━━━━`,
             }
         );
 
