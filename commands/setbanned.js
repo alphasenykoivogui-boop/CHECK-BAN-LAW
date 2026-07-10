@@ -18,7 +18,7 @@ module.exports = async (bot, msg) => {
 
     bot.sendMessage(
         chatId,
-`✅ Votre message BANNED a été enregistré avec succès.`
+`✅ Votre text pour verification de compte si off a été enregistré avec succès.`
     );
 
 };
