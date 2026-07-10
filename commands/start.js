@@ -69,10 +69,10 @@ callback_data: "check_sub"
 
 ❒ COMMANDES
 
-❍ /check
-❍ /setbanned
-❍ /setclean
-❍ /resetmessages
+❍ /check pour ✦vérifier l'état d'un compte
+❍ /setbanned ✦changer le text banned
+❍ /setclean ✦changer le text compte actif
+❍ /resetmessages ✦réinitialiser les textes 
 
 ━━━━━━━━━━━━━━━━━━
 
